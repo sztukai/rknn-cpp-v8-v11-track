@@ -10,7 +10,7 @@
   * 编译完成后进入install运行命令./rknn_yolo_demo **模型所在路径** **视频所在路径/摄像头序号**
 
 ### 部署应用
-* 参考include/rkYolov5s.hpp中的rkYolov5s类构建rknn模型类
+* 参考include/rkYolo.hpp中的rkYoloModel类构建rknn模型类
 
 ### 测试模型来源: 
 * v8: 基于coco128数据集进行110-120轮的训练，后基于rknn_toolkit2转换为rknn模型。
