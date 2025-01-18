@@ -1,6 +1,6 @@
 # 简介
-### 此仓库为 RK3588 目标跟踪样例。</br>
-该demo基于rkrga加速letterbox前处理，yolov8n/yolo11n rknn模型推理以及后处理，bytetracker目标跟踪，没有用线程加速。
+### 此仓库为 RK3588 目标跟踪样例。（没有用线程加速）</br>
+该demo基于rkrga加速letterbox前处理，yolov8n/yolo11n rknn模型推理以及后处理，bytetracker目标跟踪。
 ![效果展示](v8_v11_track.gif)
 
 # 使用说明
@@ -25,3 +25,4 @@
 * https://github.com/rockchip-linux/rknpu2
 * https://github.com/shaoshengsong/DeepSORT
 * https://github.com/airockchip/rknn_model_zoo
+* https://github.com/leafqycc/rknn-cpp-Multithreading
